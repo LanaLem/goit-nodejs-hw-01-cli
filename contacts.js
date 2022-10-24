@@ -36,10 +36,12 @@ async function removeContact(contactId) {
             return null;
         }
 
-        contactsList.splice(index, 1)
+        const removedContact = contactsList[index];
+
+        contactsList.splice(index, 1);
 
         await fs.writeFile(contactsPath, JSON.stringify(contactsList));
-        return index
+        return removedContact;
     } catch (error) {
         console.error(error.message);
     }

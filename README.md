@@ -21,4 +21,4 @@ node index.js --action="add" --name="Mango" --email="mango@gmail.com"
 
 node index.js --action="remove" --id=3
 
-скріншот: https://prnt.sc/VUVBjFEtORRt
+скріншот: https://prnt.sc/diS0g4HH_JIE
