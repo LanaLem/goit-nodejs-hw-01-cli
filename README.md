@@ -2,22 +2,23 @@
 
 node index.js --action="list"
 
-скріншот: https://prnt.sc/X--lH0dalfWL
+скріншот: https://prnt.sc/6dtOXZn9H8xv
 
 # Отримуємо контакт по id
 
 node index.js --action="get" --id=5
 
-скріншот: https://prnt.sc/uiMgQIL5Im1z
+скріншот: https://prnt.sc/b5zp1VdwtfKX
 
 # Додаємо контакт
 
-node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
+node index.js --action="add" --name="Mango" --email="mango@gmail.com"
+--phone="322-22-22"
 
-скріншот: https://prnt.sc/Knq-8wFqkhKq
+скріншот: https://prnt.sc/3ruFamIZSMdR
 
 # Видаляємо контакт
 
 node index.js --action="remove" --id=3
 
-скріншот: https://prnt.sc/oP_woHhFoyzp
+скріншот: https://prnt.sc/wVZaSedl5weI
